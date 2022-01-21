@@ -26,7 +26,7 @@ int month_of_day(int day){
 	int i;
 	
 	for(i = 1; day > days_in_month[i]; i++)
-			day -= days_in_month[i];
+		day -= days_in_month[i];
 	
 	return i;
 }
