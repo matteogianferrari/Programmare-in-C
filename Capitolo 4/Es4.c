@@ -1,4 +1,4 @@
-* Author: Matteo Gianferrari
+/* Author: Matteo Gianferrari
  * Data: 21/01/2022
  * Scrivere un programma che, dato un giorno dell'anno compreso tra 1 e 365 (non considerando gli anni bisestili),
  * calcoli e restituisca il valore del mese a cui appartiene espresso come intero da 1 (Gennaio) a 12 (Dicembre)
