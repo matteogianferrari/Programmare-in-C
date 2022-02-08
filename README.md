@@ -2,4 +2,4 @@
 My code solutions for the book "Programmare in C"
 
 P.S.
-Complete Es10 Cap 6 and Es5 Cap 7.
+Complete Es10 Cap 6, Es5 Cap 7, Es 4 Cap 8.
