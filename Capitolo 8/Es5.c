@@ -1,3 +1,10 @@
+/* Author: Matteo Gianferrari
+ * Data: 08/02/2022
+ * Si consideri un file contenente informazioni relative ai risultati delle partite di calcio di un girone (max 18 squadre). Il file contiene in ciascuna riga, separati da spazio:
+ * nome della squadra (max 10 caratteri), numero di partite vinte, numero di partite perse, numero di partite pareggiate, goal fatti, goal subiti.
+ * Si scriva un programma che definita un'opportuna struttura dati, cairichi in memoria questi dati e generi un secondo file che contiene in ciascuna riga le seguenti informazioni:
+ * nome squadra, numero partite giocate, punteggio (3 punti per partita vinta 1 per pareggiata), media dei goal fatti per partita, media dei goal subiti a partita.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
