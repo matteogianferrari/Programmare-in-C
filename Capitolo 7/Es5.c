@@ -17,8 +17,8 @@ void statistiche_stud(int arr[][N_ESAMI]);
 void statistiche_esami(int arr[][N_ESAMI]);
 
 int main(void){
-	int libretti[N_STUDENTI][N_ESAMI];
 	char buf[MAX_LEN];
+	int libretti[N_STUDENTI][N_ESAMI];
 	int temp_stud, temp_es, temp_vot;
 	
 	init_libretti(libretti);
