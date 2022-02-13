@@ -5,9 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "integral.h"
+
 #define STEP 0.001
-
-
 
 int main(int argc, char *argv[]){
 	double a, b, f_x;
