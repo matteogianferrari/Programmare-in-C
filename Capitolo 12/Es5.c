@@ -1,3 +1,23 @@
+/* Author: Matteo Gianferrari
+ * Data: 14/02/2022
+ * Si definisca in un modulo denominato func_file.c e .h una serie di funzioni che svolgano le seguenti operazioni:
+ * 1. vet_alloc: alloca un vettore di interi, di dimensione passata come parametro alla funzione.
+ * 2. mat_alloc: alloca una matrice di interi, di dimensioni passate come parametri alla funzione.
+ * 3. print_vet: stampa su uno stream passato come parametro gli elementi di un vettore di interi, separati da uno spazio su una riga
+ *		 (usare il formato %ni per incolonnarli, n sia il numero di posizioni occupate da ciascun valore).
+ * 4. print_mat: stampa su uno stream passato come parametro gli elementi di una matrice di interi, riga per riga. La funzione dovrà
+ * 	  	 richiamare a sua volta la funzione stampa_vet, per stampare le righe della matrice.
+ * 5. somma_vet: calcola la somma degli elementi di due vettori ritornando il risultato in un terzo vettore di interi (tutti della medesima dimensione).
+ * 6. somma_mat: calcola la somma degli elementi di due matrici ritornando il risultato in una terza mattrice di interi (tutti della medesima dimensione).
+ * 7. media_vet: calcola e restituisce la media degli elementi di un vettore.
+ * 8. media_mat: calcola e restituisce la media degli elementi di una matrice, facendo uso anche della funzione media_vet.
+ * 9. min_vet: calcola e restituisce il minimo degli elementi di un vettore.
+ * 10. max_vet: calcola e restituisce il massimo degli elementi di un vettore.
+ * 11. min_mat: calcola e restituisce il minimo degli elementi di una matrice.
+ * 12. max_mat: calcola e restituisce il massimo degli elementi di una matrice.
+ * Si scriva un programma che riceve da linea di comando una opzione che rappresenta il tipo di elemento su cui svolgere le funzioni
+ * (-m matrice, -v vettore) e mostri l'utilizzo delle varie funzioni sopra elencate.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
